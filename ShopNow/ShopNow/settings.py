@@ -58,7 +58,7 @@ ROOT_URLCONF = 'ShopNow.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['ShopNow/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
